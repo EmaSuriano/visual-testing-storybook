@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots DuplicationButton Bad 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "border": "pink 3px solid",
+      "borderRadius": "5px",
+      "fontSize": "16px",
+      "padding": "10px",
+    }
+  }
+>
+  <span
+    aria-label="devil"
+    role="img"
+  >
+    😈
+  </span>
+</button>
+`;
+
+exports[`Storyshots DuplicationButton Good 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "border": "pink 3px solid",
+      "borderRadius": "5px",
+      "fontSize": "16px",
+      "padding": "10px",
+    }
+  }
+>
+  <span
+    aria-label="angel"
+    role="img"
+  >
+    😇
+  </span>
+</button>
+`;
